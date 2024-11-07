@@ -12,12 +12,12 @@ namespace InventoriesProject
             var builder = WebApplication.CreateBuilder(args);
             var configs = builder.Configuration;
 
-/*            // Add services to the container.
+            // Add services to the container.
             builder.Services.AddDbContext<ApplicationDbContext>(options =>
             {
                 options.UseSqlServer(configs.GetConnectionString("DefaultConnection"));
             });
-
+/*
             // registers repositories
             builder.Services.AddScoped<ISupplierRepository, SupplierRepository>();
             builder.Services.AddScoped<IProductRepository, ProductRepository>();
