@@ -17,12 +17,12 @@ namespace InventoriesProject
             {
                 options.UseSqlServer(configs.GetConnectionString("DefaultConnection"));
             });
-/*
+
             // registers repositories
             builder.Services.AddScoped<ISupplierRepository, SupplierRepository>();
             builder.Services.AddScoped<IProductRepository, ProductRepository>();
             builder.Services.AddScoped<IInventoryRepository, InventoryRepository>();
-
+/*
             // registers services
             builder.Services.AddScoped<ISupplierService, SupplierService>();
             builder.Services.AddScoped<IProductService, ProductService>();
