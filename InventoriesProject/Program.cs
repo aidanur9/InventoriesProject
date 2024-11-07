@@ -22,12 +22,12 @@ namespace InventoriesProject
             builder.Services.AddScoped<ISupplierRepository, SupplierRepository>();
             builder.Services.AddScoped<IProductRepository, ProductRepository>();
             builder.Services.AddScoped<IInventoryRepository, InventoryRepository>();
-/*
+
             // registers services
             builder.Services.AddScoped<ISupplierService, SupplierService>();
             builder.Services.AddScoped<IProductService, ProductService>();
             builder.Services.AddScoped<IInventoryService, InventoryService>();
-*/
+
             builder.Services.AddControllers();
 
             // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
